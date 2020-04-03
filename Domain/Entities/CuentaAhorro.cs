@@ -6,7 +6,7 @@ namespace Domain.Entities
 {
     public class CuentaAhorro : CuentaBancaria
     {
-        public const double TOPERETIRO = 1000;
+        public const double TOPERETIRO = 100000;
 
         public override void Retirar(double valor)
         {
